@@ -43,7 +43,7 @@ public class Program {
 		seller = sellerDao.findById(1);
 		seller.setName("Martha Waine");
 		sellerDao.update(seller);
-		System.out.println("Update dempleted!");
+		System.out.println("Update completed!");
 		
 		System.out.println("\n===TESTE 6: seller Delete===");
 		System.out.println("Enter ID for delete test: ");
